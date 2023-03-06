@@ -1,0 +1,14 @@
+.left-nav:hover{
+    color:#6730FF;
+    border-bottom-color: #6730FF;
+    border-bottom: 1px solid; 
+};
+
+Nav.Item{
+    color:#000000;
+}
+
+.left-nav{
+    color:#000000;
+    opacity: 1;
+}

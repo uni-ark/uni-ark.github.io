@@ -1,0 +1,12 @@
+.main-container{
+    margin-top: 20%;
+    overflow: auto;
+}
+
+.left{
+    border-right: 3px #6730FF solid;
+    padding-bottom: 3%;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+
