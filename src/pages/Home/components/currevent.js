@@ -6,7 +6,7 @@ import YoutubeEmbed from './YouTubeEmbed';
 class CurrEvent extends Component {
     render() {
         return (
-            <Container style={{ height: '75vh' , textAlign:'center',marginBottom:'10%',fontSize:'18px'}}>
+            <Container style={{ height: '75vh' , textAlign:'center',marginBottom:'10%',fontSize:'18px',zIndex:'-100'}}>
                 <Row style={{ paddingTop: '5%' }}>
                     <Col>
                         <h1 style={{fontWeight:'bold'}}>Invest In <span style={{color:'#6730FF'}}>Her Future</span></h1>
@@ -14,7 +14,7 @@ class CurrEvent extends Component {
                 </Row>
 
                 <center>
-                <Card style={{textAlign:'justify', width:'70%',padding:'3%'}}>
+                <Card style={{textAlign:'justify', width:'70%',padding:'3%',zIndex:'-100'}}>
                         <Card.Subtitle><h4>UniArk <span style={{color:'#6730FF'}}>Women's</span> Scholarship</h4></Card.Subtitle><br />
                         <YoutubeEmbed />
                         <Card.Text>

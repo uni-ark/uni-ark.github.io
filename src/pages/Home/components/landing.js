@@ -9,7 +9,7 @@ class Landing extends Component {
     render(){
         return (
             <div className='landing-page' style={{width:'100%'}}>
-                <div style={{width:'100%',position:'fixed',background:'white'}}>
+                <div style={{width:'100%',position:'fixed',background:'white',zIndex:'1000'}}>
                     <UniNav />
                 </div>
                 <br />

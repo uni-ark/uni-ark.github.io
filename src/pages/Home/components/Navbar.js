@@ -22,7 +22,7 @@ class UniNav extends Component{
             // color:'#000',
         }
         return (
-            <Navbar collapseOnSelect expand='lg' sticky="top">
+            <Navbar collapseOnSelect expand='lg' sticky="top" style={{zIndex:'1000'}}>
                 <Container >
 
                     <Navbar.Brand href="#home" style={{fontSize:'36px',marginLeft:"0",paddingLeft:0,fontFamily:'Avenir'}}>

@@ -1,0 +1,20 @@
+.services{
+    /* background:#BB02FE; */
+
+    background-image: url('../img/s3bg4.jpg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover; 
+    /* padding: 50px 0; */
+    padding-bottom: 3%;
+    text-align: center;
+    color:white;
+    padding-top:3%;
+    width: 100%;
+    /* height: 95vh; */
+
+}
+
+Card{
+    z-index:-100;
+}
