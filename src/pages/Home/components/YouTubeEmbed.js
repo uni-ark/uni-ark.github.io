@@ -10,7 +10,7 @@ class YoutubeEmbed extends Component {
                 <iframe
                     width="100%"
                     height="400"
-                    src="https://www.youtube.com/embed/sB5PPu6wMqM?autoplay=1"
+                    src="https://www.youtube.com/embed/sB5PPu6wMqM"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     frameborder="0"
                     allowfullscreen

@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import React, {Component} from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -37,13 +38,13 @@ class UniNav extends Component{
                     
                     <Nav className="justify-content-end" style={{ width: "100%",fontFamily:"Avenir" }}>
                         <Nav.Item>
-                            <Nav.Link className='left-nav' href="/" style={leftnav}>Home &nbsp;</Nav.Link>
+                            <Nav.Link as={Link} to='/' className='left-nav' style={leftnav}>Home &nbsp;</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link className='left-nav' href="/AboutUs" style={leftnav}>About Us &nbsp;</Nav.Link>
+                            <Nav.Link as={Link} to='/AboutUs' className='left-nav' style={leftnav}>About Us &nbsp;</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link className='left-nav' href="/news" style={leftnav}>News &nbsp;</Nav.Link>
+                            <Nav.Link className='left-nav' style={leftnav}>News &nbsp;</Nav.Link>
                         </Nav.Item>
                         <Nav.Item><Nav.Link className='left-nav' href="mentorship" style={leftnav}>Mentorship &nbsp;</Nav.Link></Nav.Item>
                         <Nav.Item><Nav.Link className='left-nav' href="donate" style={leftnav}>Donate</Nav.Link></Nav.Item>
