@@ -8,11 +8,11 @@ class YoutubeEmbed extends Component {
         return (
             <div className="video-responsive">
                 <iframe
-                    width="800"
+                    width="100%"
                     height="400"
-                    src="https://www.youtube.com/embed/sB5PPu6wMqM"
-                    frameborder="0"
+                    src="https://www.youtube.com/embed/sB5PPu6wMqM?autoplay=1"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    frameborder="0"
                     allowfullscreen
                 />
             </div>

@@ -6,13 +6,13 @@ import '../src/css/testimony.css'
 class Testimony extends React.Component {
     render() {
         return (
-            <div className="testimony" style={{ height: '40vh', marginTop: '3%' }}>
-                <h1 style={{ fontWeight: 'bold' }}>Testimony</h1>
+            <div className="testimony" style={{  marginTop: '3%' }}>
+                <h1 style={{ fontWeight: 'bold',fontSize:'56px' }}>Testimony</h1>
                 <Carousel className='carousel' variant='dark' style={{ paddingBottom: '5%' }}>
                     <Carousel.Item>
 
                         <Container className='carousel-cont'>
-                            <Card style={{ height: '20em', textAlign: 'left', flexDirection: 'row' }}>
+                            <Card style={{ textAlign: 'left', flexDirection: 'row' }}>
                                 <Card.Img as={Image} fluid={true} variant="center" src={require('../src/img/nematullah.webp')} style={{ width: '13em', height: '13em', border: '1px #eee solid', marginTop: 'auto', marginBottom: 'auto', marginLeft: '3%' }} roundedCircle />
                                 <Card.Body style={{ paddingTop: '4%', paddingLeft: '3%' }}>
                                     <Card.Title><h3>Nematullah <span style={{color:'#6370FF',fontWeight:'bold'}}>Ahangosh</span></h3></Card.Title>
@@ -33,7 +33,7 @@ class Testimony extends React.Component {
                     </Carousel.Item>
                     <Carousel.Item className='carousel-cont'>
                         <Container className='carousel-cont'>
-                            <Card style={{ height: '20em', textAlign: 'left', flexDirection: 'row' }}>
+                            <Card style={{ textAlign: 'left', flexDirection: 'row' }}>
                                 <Card.Img as={Image} fluid={true} variant="center" src={require('../src/img/aish.png')} style={{ width: '13em', height: '13em', border: '1px #eee solid', marginTop: 'auto', marginBottom: 'auto', marginLeft: '3%' }} roundedCircle />
                                 <Card.Body style={{ paddingTop: '4%', paddingLeft: '3%' }}>
                                     <Card.Title><h3>Aishwarya C. <span style={{color:'#6370FF', fontWeight:'bold'}}>Babu</span></h3></Card.Title>
@@ -54,7 +54,7 @@ class Testimony extends React.Component {
                     </Carousel.Item>
                     <Carousel.Item className='carousel-cont'>
                         <Container className='carousel-cont'>
-                        <Card style={{ height: '20em', textAlign: 'left', flexDirection: 'row' }}>
+                        <Card style={{ textAlign: 'left', flexDirection: 'row' }}>
                                 <Card.Img as={Image} fluid={true} variant="center" src={require('../src/img/noimg.webp')} style={{ width: '13em', height: '13em', border: '1px #eee solid', marginTop: 'auto', marginBottom: 'auto', marginLeft: '3%' }} roundedCircle />
                                 <Card.Body style={{ paddingTop: '4%', paddingLeft: '3%' }}>
                                     <Card.Title><h3>Qudratullah <span style={{color:'#6370FF',fontWeight:'bold'}}>Jamil</span></h3></Card.Title>
@@ -73,7 +73,7 @@ class Testimony extends React.Component {
                     </Carousel.Item>
                     <Carousel.Item className='carousel-cont'>
                         <Container className='carousel-cont'>
-                        <Card style={{ height: '20em', textAlign: 'left', flexDirection: 'row' }}>
+                        <Card style={{  textAlign: 'left', flexDirection: 'row' }}>
                                 <Card.Img as={Image} fluid={true} variant="center" src={require('../src/img/noimg.webp')} style={{ width: '13em', height: '13em', border: '1px #eee solid', marginTop: 'auto', marginBottom: 'auto', marginLeft: '3%' }} roundedCircle />
                                 <Card.Body style={{ paddingTop: '4%', paddingLeft: '3%' }}>
                                     <Card.Title><h3>Khadija <span style={{color:'#6370FF',fontWeight:'bold'}}>.</span></h3></Card.Title>

@@ -1,12 +1,16 @@
-import React, {Component} from 'react';
-import ReactDOM from 'react-dom/client';
-import styles from '../src/css/Home.css'
-import UniNav from './Navbar'
-import Option from './Option'
-import '../src/css/landing.css'
-import ParticlesBg from 'particles-bg';
+import React from "react";
+import { ReactDOM } from "react";
+import {Col, Row, Container} from "react-bootstrap";
+// import Button from '@mui/material/Button';
+import UniNav from "../../Home/components/Navbar";
+// import Particles from 'react-particles-js';
+// import particlesConfig from './config/particlesConfig';
+import ParticlesBg from 'particles-bg'
+import '../src/css/aboutus.css'
 
-class Landing extends Component {
+
+class AULanding extends React.Component {
+
     constructor(props) {
         super(props);
         this.state={
@@ -28,7 +32,7 @@ class Landing extends Component {
    
    
 
-    render(){
+    render() {
         const mystyle = {
             width:'100%',
             backgroundColor: this.state.status,
@@ -36,17 +40,17 @@ class Landing extends Component {
             zIndex:'1000'
             };
         return (
-            <div className='landing-page' style={{width:'100%'}}>
+            <div className="about-us">
+                <ParticlesBg type="circle" bg={true}  num={5} />
                 <div style={mystyle}>
-                    <UniNav />
+                <UniNav />
                 </div>
-                <br />
-                <div style={{width:'100%'}}>
-                    <Option />
-                </div>
+                <Container style={{paddingTop:'20%'}}>
+                    <h1 style={{fontSize:'80px'}}>About Us</h1>
+                </Container>
             </div>
         );
-    }
-}
+    };
+};
 
-export default Landing;
+export default AULanding;
