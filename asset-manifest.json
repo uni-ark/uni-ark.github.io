@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.de027695.css",
-    "main.js": "/static/js/main.3f7ee0cb.js",
+    "main.css": "/static/css/main.995261cc.css",
+    "main.js": "/static/js/main.7ad86a47.js",
     "static/js/787.381cd7b6.chunk.js": "/static/js/787.381cd7b6.chunk.js",
     "static/media/aish.png": "/static/media/aish.431ec07adba714d5ed0c.png",
     "static/media/s2.jpeg": "/static/media/s2.e4aedb215cc690c17f0e.jpeg",
     "static/media/s1.jpeg": "/static/media/s1.1bee11679a0a4e006c99.jpeg",
     "static/media/cbg.jpeg": "/static/media/cbg.5355f038e7363af41c3a.jpeg",
     "static/media/s3.jpeg": "/static/media/s3.dd7d4971f217f40b73ee.jpeg",
-    "static/media/s3bg4.jpg": "/static/media/s3bg4.f65d17433476262bc20d.jpg",
     "static/media/s4.PNG": "/static/media/s4.ee7d5712b79daee6488d.PNG",
-    "static/media/bg.jpg": "/static/media/bg.a74469659347e469c6ef.jpg",
     "static/media/logo.png": "/static/media/logo.519d8fbb639b75b0e26d.png",
     "static/media/noimg.webp": "/static/media/noimg.efadb13dba95b5bc918b.webp",
     "static/media/nematullah.webp": "/static/media/nematullah.3608a8521ec578bfc3de.webp",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.de027695.css.map": "/static/css/main.de027695.css.map",
-    "main.3f7ee0cb.js.map": "/static/js/main.3f7ee0cb.js.map",
+    "main.995261cc.css.map": "/static/css/main.995261cc.css.map",
+    "main.7ad86a47.js.map": "/static/js/main.7ad86a47.js.map",
     "787.381cd7b6.chunk.js.map": "/static/js/787.381cd7b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de027695.css",
-    "static/js/main.3f7ee0cb.js"
+    "static/css/main.995261cc.css",
+    "static/js/main.7ad86a47.js"
   ]
 }
