@@ -9,6 +9,8 @@ import ParticlesBg from 'particles-bg'
 import './src/css/aboutus.css'
 import AULanding from "./components/landing";
 import Mission from "./components/mission";
+import TimeLine from "./components/timeline";   
+import Vision from "./components/vision";
 
 
 class AboutUs extends React.Component {
@@ -21,6 +23,13 @@ class AboutUs extends React.Component {
                 <section className='two'>
                     <Mission />
                 </section>
+                <section className='four'>
+                    <Vision />
+                </section>
+                <section className='three'>
+                    <TimeLine />
+                </section>
+                
             </div>
         )
     }
