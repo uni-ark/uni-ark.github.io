@@ -17,7 +17,7 @@ class Vision extends Component{
                         <Col>
                         <h1>Our Vision</h1>
                             <p style={{textAlign:'justify',fontSize:'20px'}}>
-                            We envision a world where every student has access to the best education and opportunities. We believe that every student has the potential to achieve their dreams, and we are here to help them achieve it.
+                            Our vision is to help students from disadvantaged backgrounds to gain entry to some of the world’s most competitive universities including UK universities like Oxford, and Cambridge. These world-class universities truly provide a platform to transform one’s life and the skills to become world leaders in their respective fields. We hope to empower entire minority communities by preparing the students to succeed both academically and personally.
                             </p>
                         
                         </Col>

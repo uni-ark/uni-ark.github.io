@@ -11,7 +11,8 @@ import AULanding from "./components/landing";
 import Mission from "./components/mission";
 import TimeLine from "./components/timeline";   
 import Vision from "./components/vision";
-
+import Approach from "./components/approach";
+import ContactUs from "../Home/components/contactus";
 
 class AboutUs extends React.Component {
     render(){
@@ -26,10 +27,15 @@ class AboutUs extends React.Component {
                 <section className='four'>
                     <Vision />
                 </section>
+                <section className='five'>
+                    <Approach />
+                </section>
                 <section className='three'>
                     <TimeLine />
                 </section>
-                
+                <section className='three'>
+                    <ContactUs />
+                </section>
             </div>
         )
     }

@@ -41,7 +41,7 @@ class AULanding extends React.Component {
             };
         return (
             <div className="about-us">
-                <ParticlesBg type="cobweb" bg={true}  num={50} />
+                <ParticlesBg type="square" bg={true}  num={7} />
                 <div style={mystyle}>
                 <UniNav />
                 </div>

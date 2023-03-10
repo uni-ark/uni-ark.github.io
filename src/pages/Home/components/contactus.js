@@ -6,7 +6,7 @@ import '../src/css/contactus.css'
 class ContactUs extends Component{
     render(){
         return (
-            <div className="contactus" style={{marginTop:'10%'}}>
+            <div className="contactus" style={{marginTop:'3%'}}>
                 <Container style={{paddingTop:'3%',paddingBottom:'3%'}}>
                     <Card style={{height:'24em'}}>
                         <Card.Title style={{paddingTop:'2%',paddingLeft:'3%'}}>
